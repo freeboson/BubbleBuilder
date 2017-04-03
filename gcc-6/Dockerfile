@@ -1,7 +1,7 @@
 FROM freeboson/cmake-gcc:gcc-6
 
 RUN apt-get update && apt-get install -y \
-    libalglib-dev
+    libalglib-dev \
     libboost-all-dev \
     libeigen3-dev \
     libginac-dev \
